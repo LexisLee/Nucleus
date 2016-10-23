@@ -157,7 +157,7 @@ span.psw {
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
-                    <li class="page-scroll">
+                    <li>
                         <a href="Dashboard.html">Dashboard</a>
                     </li>
 					<li class="dropdown">
@@ -204,13 +204,15 @@ span.psw {
 	
 	<div id="form2" class="modal">
   
-	  <form class="modal-content animate" action="">
+	  <form class="modal-content animate" action="https://nucleus-backend.herokuapp.com/inneed/services" method="POST">
 		<span onclick="document.getElementById('form2').style.display='none'" class="close" title="Close Modal">&times;</span>
 
 		<div class="container">
-		  <label><input type="checkbox" id="cbox1" value="first_checkbox"> Legal</label><br>
+		  <label><input type="checkbox" id="1" value="legal"> Legal</label><br>
 
-		  <input type="checkbox" id="cbox2" value="second_checkbox"> <label for="cbox2">Housing</label>
+		  <input type="checkbox" id="1" value="housing"> <label for="cbox2">Housing</label><br>
+		  
+		  <label><input type="checkbox" id="1" value="utilities"> Utilities</label><br>
 		  
 		</div>
 			
