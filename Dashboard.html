@@ -245,7 +245,7 @@ span.psw {
 				<!--- Find profile form --->
 				<div id="form1" class="modal">
   
-				  <form class="modal-content animate" action="">
+				  <form class="modal-content animate" action="Profile.html">
 					<span onclick="document.getElementById('form1').style.display='none'" class="close" title="Close Modal">&times;</span>
 
 					<div class="container">
@@ -258,7 +258,8 @@ span.psw {
 					  <label><b>SSN</b></label>
 					  <input type="text" placeholder="Enter last 4 digits of SSN" name"SSN" required>
 						
-					  <button type="submit">Submit</button>
+					  <!--- Redirect to forms if not in system otherwise they are redirected to profile --->
+					  <button type="submit">Submit</button> 
 					</div>
 
 					<div class="container">
@@ -297,10 +298,6 @@ span.psw {
 		</div>
 		
 	</div>
-	
-	<form id = "searchbox">
-		<button type = "button" > Hey! </button>
-	</form>
 	
 </body>
 
